@@ -101,6 +101,14 @@ header i:hover{
     
 }
 
+#grid {
+    display: grid;
+    grid-template-columns: auto auto;
+   
+}
+
+
+
 
 @media screen and (max-width:1000px){
   #header1, #right{
@@ -117,12 +125,9 @@ header i:hover{
       padding-right: 10px;
   }
 
-  #column1 img {
-      width: 100%;
-  }
-
-  #column2 img {
-      width: 100%;
+  #grid {
+      display: grid;
+      grid-template-columns: auto;
   }
   
 
